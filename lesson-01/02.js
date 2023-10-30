@@ -1,4 +1,5 @@
 let number1 = Math.floor(Math.random() * 100);
+
 let ranNumber;
 
 if (number1 % 2 === 0) {
@@ -10,8 +11,11 @@ if (number1 % 2 === 0) {
 console.log(ranNumber);
 
 let number = 1;
-
-console.log(number++);
-console.log(++number);
-console.log(number--);
-console.log(--number);
+number++
+console.log(number);
+++number
+console.log(number);
+number--
+console.log(number);
+--number
+console.log(number);
