@@ -11,11 +11,8 @@ if (number1 % 2 === 0) {
 console.log(ranNumber);
 
 let number = 1;
-number++
-console.log(number);
-++number
-console.log(number);
-number--
-console.log(number);
---number
-console.log(number);
+
+console.log(number++);
+console.log(++number);
+console.log(number--);
+console.log(--number);
