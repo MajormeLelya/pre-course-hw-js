@@ -6,3 +6,5 @@ let passport = {
 let newPassport = { ...passport };
 newPassport.name = "Ivan";
 
+console.log(passport);
+console.log(newPassport);
