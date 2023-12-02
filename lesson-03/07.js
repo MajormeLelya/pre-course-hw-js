@@ -12,6 +12,4 @@ for (let i = 0; i < numbers.length; i++) {
   numbers[i] = removeOddNumbers(numbers[i]);
 }
 
-for (let row of numbers) {
-  console.log(row);
-}
+console.log(numbers);
